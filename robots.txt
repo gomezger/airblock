@@ -1,0 +1,8 @@
+#
+# robots.txt for airblockbahiablanca.com.ar
+#
+
+User-agent: *
+
+Disallow: /contacto.php
+Disallow: /cons.php

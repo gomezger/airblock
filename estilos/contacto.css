@@ -1,0 +1,434 @@
+#content {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-left-color: #CCC;
+	background-color: #F7F7F7;
+	box-shadow: 2px 2px 5px #999;
+	position: relative;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	overflow: hidden;
+}
+#content #section .cons {
+	text-align: center;
+	font-size: 16px;
+}
+
+#content #encabezado {
+	height: 90px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	background-image: url(../activos/contacto-header.png);
+	line-height: 27px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+#content #encabezado .titulo {
+	font-size: 26px;
+	padding: 0px;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+#content #encabezado .sub-titulo {
+	font-size: 14px;
+	padding-left: 5px;
+	color: #666;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-weight: normal;
+}
+#content #section {
+	width: 940px;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+#content #section .encabezado {
+	clear: both;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 13px;
+	color: #666;
+	line-height: 20px;
+	text-align: justify;
+	width: 900px;
+	padding-top: 0px;
+}
+#content #section .encabezado .h1 {
+	font-size: 12px;
+	margin: 0px;
+	font-weight: normal;
+	float: left;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#content #section .encabezado .mail  {
+	font-style: italic;
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+}
+#content #section .formulario {
+	width: 600px;
+	float: left;
+	overflow: hidden;
+}
+#content #section .formulario .contenedor {
+	border: 1px solid #CCC;
+	margin: 15px;
+	border-radius: 10px 10px 10px 10px;
+	padding: 15px;
+}
+#content #section .formulario .contenedor #envio {
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#content #section .formulario .contenedor form .titulo {
+	font-size: 13px;
+	color: #242424;
+	font-weight: bold;
+	border: 1px solid #CCC;
+	border-radius: 5px 5px 5px 5px;
+	padding: 2px;
+	margin-bottom: 25px;
+	background-color: #EBEBEB;
+}
+#content #section .formulario .contenedor form .opcion {
+	font-size: 15px;
+	color: #666;
+	clear: both;
+	margin-top: 10px;
+	height: 35px;
+	padding: 0px;
+	
+}
+#content #section .formulario .contenedor form .hr {
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	margin-top: -35px;
+	margin-bottom: 35px;
+	width: 397px;
+	float: right;
+}
+#content #section .formulario .contenedor form .opcion #campo-name{
+	width: 290px;
+	height: 20px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 14px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+}
+#content #section .formulario .contenedor form .opcion #campo{
+	width: 290px;
+	height: 20px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 14px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+}
+#content #section .formulario .contenedor form .opcion #campo-carac{
+	width: 88px;
+	height: 20px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 14px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	text-align: right;
+}
+#content #section .formulario .contenedor form .opcion #campo-tel{
+	width: 185px;
+	height: 20px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 14px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#content #section .formulario .contenedor form .opcion #campo-prov {
+	width: 156px;
+	height: 26px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	font-size: 13px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#content #section .formulario .contenedor form .opcion #campo-ciudad {
+	width: 129px;
+	height: 20px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 14px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#content #section .formulario .contenedor form .opcion #campo-prov2 {
+	width: 156px;
+	height: 26px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	font-size: 13px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#content #section .formulario .contenedor form .opcion #campo-ciudad2 {
+	width: 129px;
+	height: 20px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 14px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#content #section .formulario .contenedor form .opcion #campo-area {
+	width: 128px;
+	height: 26px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	font-size: 13px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#content #section .formulario .contenedor form .opcion #campo-otro {
+	width: 157px;
+	height: 20px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 13.5px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#content #section .formulario .contenedor form .opcion #campo-area-cons {
+	width: 302px;
+	height: 26px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 13px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#content #section .formulario .contenedor form .opcion #campo-procrear {
+
+	width: 302px;
+	height: 26px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 13px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#content #section .formulario .contenedor form .opcion #campo-material {
+
+	width: 302px;
+	height: 26px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 13px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#content #section .formulario .contenedor form .opcion #msj {
+	width: 290px;
+	height: 34px;
+	font-size: 14px;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	background-color: #F8F8F8;
+	border: 1.5px solid #CCC;
+	margin-top: -5px;
+	margin-left: 5px;
+	line-height: 19px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+}
+#content #section .formulario .contenedor form .enviar {
+	float: right;
+	height: 28px;
+	width: 165px;
+	margin-bottom: 20px;
+	border-radius: 5px 5px 5px 5px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	margin-right: 5px;
+}
+#content #section .formulario .contenedor form .borrar {
+	float: right;
+	height: 28px;
+	width: 125px;
+	margin-bottom: 20px;
+	border-radius: 5px 5px 5px 5px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	margin-right: 5px;
+}
+#content #section #nav {
+	float: left;
+	width: 335px;
+	margin-top: 5px;
+}
+#content #section #nav #privacidad {
+	clear: both;
+	width: 270px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 13px;
+	background-image: url(../activos/fondo-menu-li-2.png);
+	text-align: justify;
+	padding: 15px;
+	color: #EAEAEA;
+	border-radius: 5px 5px 5px 5px;
+	line-height: 20px;
+}
+#content #section #nav #datos {
+	padding-top: 30px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+#content #section #nav #datos ul {
+	list-style-type: none;
+	padding-left: 50px;
+	line-height: 30px;
+	font-weight: normal;
+}
+#content #section #nav #datos ul .tel {
+	color: #494949;
+	font-size: 14px;
+	list-style-image: url(../activos/icono-tel.png);
+}
+#content #section #nav #datos ul .email {
+	color: #494949;
+	font-size: 14px;
+	list-style-image: url(../activos/icono-email.png);
+}
+#content #section #nav #datos ul .email .mail {
+	text-decoration: none;
+	color: #494949;
+	font-style: italic;
+}
+#content #section #nav #datos ul .local {
+	color: #494949;
+	font-size: 14px;
+	list-style-image: url(../activos/icono-locall.png);
+}
+#content #section #nav #datos ul .direc {
+	color: #494949;
+	font-size: 14px;
+	list-style-image: url(../activos/icono-casa.png);
+}
+#content #section #nav .logo-blanco {
+	padding-top: 50px;
+	padding-left: 17px;
+}
